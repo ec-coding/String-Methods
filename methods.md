@@ -14,17 +14,17 @@ console.log(`The character at index ${index} is ${sentence.charAt(index)}`);
 ```
 
 
-charCodeAt
-concat
-includes
-indexOf
-match
-repeat
-replace
-search
-slice
-split
-substr
-toLowerCase
-toUpperCase
-trim
+- charCodeAt
+- concat
+- includes
+- indexOf
+- match
+- repeat
+- replace
+- search
+- slice
+- split
+- substr
+- toLowerCase
+- toUpperCase
+- trim
