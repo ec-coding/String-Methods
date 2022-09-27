@@ -1,9 +1,9 @@
 <h1>String Methods Review</h1>
 
-1. charAt
+- charAt
   - Returns a new string consisting of the character located at the specified `index`. If the `index` is out of range, `charAt()` returns an empty string.
 
-- Examples:
+  - Examples:
 ```
 const sentence = 'The quick brown fox jumps over the lazy dog.';
 
