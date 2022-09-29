@@ -21,7 +21,7 @@ document.getElementById("demo").innerHTML = letter;
 
 // expected output: "D"
 ```
-
+---
 - **.charCodeAt()**
   - Returns an integer between `0` and `65535` representing the Unicode of the character at a specified position in a string.
 
