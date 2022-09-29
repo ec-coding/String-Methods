@@ -21,6 +21,7 @@ document.getElementById("demo").innerHTML = letter;
 
 // expected output: "D"
 ```
+
 - **.charCodeAt()**
   - Returns an integer between `0` and `65535` representing the Unicode of the character at a specified position in a string.
 
@@ -37,6 +38,7 @@ let code = text.charCodeAt(0);
 
 // expected output: 72
 ```
+
 - **.concat()**
   - Joins two strings together.
 
@@ -59,6 +61,7 @@ let result = text1.concat(text2);
 
 // expected output: "seafood"
 ```
+
 - **.includes()**
   - Returns `true` if a string contains a specified string. Otherwise, returns `false`.
   - This method is case sensitive.
@@ -79,6 +82,7 @@ let result = text.includes("world");
 
 // expected output: true
 ```
+
 - **.indexOf()**
   - Returns the position (via index) of the first occurence of a value in a string.
   - Each space is also counted.
@@ -115,6 +119,7 @@ document.getElementById("demo").innerHTML = text.indexOf("e", 5);;
 // find "e", starting at index 5:
 // expected output: 14
 ```
+
 - **.match()**
   - Matches a string against a regular expression and returns an array with said matches.
   - Returns `null` if no match is found.
@@ -147,6 +152,7 @@ document.getElementById("demo").innerHTML = result;
 // gi initiates a global, case-insensitive search
 // expected output: ["ain,AIN,ain,ain"]
 ```
+
 - **.repeat()**
   - Constructs and returns a new string which contains the specified number of copies of the string on which it was called, concatenated together.
   - Does not mutate the original string.
@@ -167,6 +173,7 @@ let result = text.repeat(2);
 document.getElementById("demo").innerHTML = result;
 // expected output: "Hello world!Hello world!"
 ```
+
 - **.replace()**
   - Searches for a string for a value or a regular exprssion, then returns a new string with said value(s) replaced.
   - Does not mutate the original string.
@@ -186,6 +193,7 @@ document.getElementById("demo").innerHTML = res;
 
 // expected output: "Mr Blue has a red house and a red car."
 ```
+
 - **.search()**
   - Matches a string against a regular expression and returns the index of the first match.
   - Returns -1 if no match is found.
@@ -209,6 +217,7 @@ let position = text.search("Blue");
 document.getElementById("demo").innerHTML = position;
 // expected output: 4
 ```
+
 - **.slice()**
   - Extracts a section of a string and returns it as a new string, without modifying the original string.
 
@@ -246,6 +255,7 @@ let result = text.slice(3);
 document.getElementById("demo").innerHTML = result;
 // expected output: "lo world!"
 ```
+
 - **.split()**
   - Splits a string into an array of substrings and returns the new array.
   - Does not mutate the original string.
@@ -275,6 +285,7 @@ const myArray = text.split(" ", 3);
 document.getElementById("demo").innerHTML = myArray;
 // expected output: "How,are,you"
 ```
+
 - **.substr()**
   - Extracts a part of a string, beginning at a specified position, and returns a specified number of characters.
   - Does not mutate the original string.
@@ -299,6 +310,7 @@ let result = text.substr(1, 4);
 document.getElementById("demo").innerHTML = result;
 // expected output: "ello"
 ```
+
 - **.toLowerCase()**
   - Converts a string to lowercase letters.
   - Does not mutate the original string.
@@ -318,6 +330,7 @@ let result = text.toLowerCase();
 document.getElementById("demo").innerHTML = result;
 // expected output: "hello world!"
 ```
+
 - **.toUpperCase()**
   - Converts a string to uppercase letters.
   - Does not mutate the original string.
@@ -337,6 +350,7 @@ let result = text.toUpperCase();
 document.getElementById("demo").innerHTML = result;
 // expected output: "HELLO WORLD!"
 ```
+
 - **.trim()**
   - Removes whitespace from both sides of a string.
   - Does not mutate the original string.
